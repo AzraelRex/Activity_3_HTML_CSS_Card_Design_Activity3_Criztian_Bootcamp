@@ -1,0 +1,14 @@
+body {
+    min-height: 100vh;
+    display: grid;
+    place-content: center;
+}
+
+.card{
+    display:grid;
+    grid-template-rows: repeat (3,auto);
+}
+
+/*Okay so 8:18Kevin  Powell Layered Card video, figure out why things are not centering*/
+
+
