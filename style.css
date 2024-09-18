@@ -10,5 +10,21 @@ body {
 }
 
 /*Okay so 8:18Kevin  Powell Layered Card video, figure out why things are not centering*/
+/* /* Always try to use these lines of code, as they are nice when it comes to being able to
+have the screen of your application be both mobile responsive, but also adjust along with your
+web browser if you decide to adjust the length, width and size of your web browser.
+The code is 
+body {
+    min-height: 100vh;
+    display: grid;
+    place-content: center;
+}
+
+.glowing-card{ (For this one kindly insert whatever the div class that you 
+utilized in your HTML is)
+    display:grid;
+    grid-template-rows: repeat (3,auto);
+}
+*/
 
 
